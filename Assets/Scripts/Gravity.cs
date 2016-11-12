@@ -3,12 +3,11 @@ using System.Collections;
 
 public class Gravity : MonoBehaviour {
     public float gravityMagnitude;
-    public Vector3 gravityDirection;
+    public InputManager rotationInput;
 
-    public float zAngle;
-    public float xAngle;
-
-    public RotationInput rotationInput;
+    private Vector3 gravityDirection;
+    private float zAngle;
+    private float xAngle;
 
     private Rigidbody rb;
 	// Use this for initialization
