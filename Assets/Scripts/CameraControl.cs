@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour {
 
-    public float cameraHeight = 120f;
+    private float cameraHeight = 80f;
 
     public float xMin;
     public float xMax;
