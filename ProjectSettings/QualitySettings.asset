@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 5
+  m_CurrentQuality: 1
   m_QualitySettings:
   - serializedVersion: 2
     name: Fastest
@@ -150,7 +150,7 @@ QualitySettings:
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 8
+    antiAliasing: 2
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -163,14 +163,14 @@ QualitySettings:
     asyncUploadBufferSize: 4
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
-    Android: 2
+    Android: 1
     Nintendo 3DS: 5
     PS3: 5
     PS4: 5
     PSM: 5
     PSP2: 2
     Samsung TV: 2
-    Standalone: 5
+    Standalone: 1
     Tizen: 2
     Web: 5
     WebGL: 3
@@ -178,5 +178,5 @@ QualitySettings:
     Windows Store Apps: 5
     XBOX360: 5
     XboxOne: 5
-    iPhone: 5
+    iPhone: 1
     tvOS: 5
