@@ -813,6 +813,22 @@ Transform:
   m_Father: {fileID: 1240432705}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &949924711 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100026, guid: af5d73afbb1f94abe96d23d89649cd49, type: 3}
+  m_PrefabInternal: {fileID: 1392765949}
+--- !u!65 &949924712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949924711}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000005, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &983928947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,7 +1738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a29b4c9912e49789c457a56f7e282c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraHeight: 120
   xMin: -40
   xMax: 40
   yMin: -20
