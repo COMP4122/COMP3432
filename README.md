@@ -12,6 +12,8 @@ Presentation slides can be viewed and downloaded [here](https://docs.google.com/
 
 ## Introduction
 
+**Made With [Unity](https://unity3d.com/)**
+
 This is the group project for COMP3432 Innovative Computing Paradigm class at HK PolyU. This is a two-player game on the Android platform.  
 
 We decided to make this game because we miss the old days when there were plenty of local multiplayer games. Nowadays we are getting better and better graphics, but games tend to focus on competitions instead of cooperation. So we made a casual game in which players can beat levels in a happy and relaxed atmosphere. We focus on making levels that require cooperations.  
