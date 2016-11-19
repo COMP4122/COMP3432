@@ -59,10 +59,9 @@ GameObject:
   - component: {fileID: 23108787188128036}
   - component: {fileID: 135247816845051280}
   - component: {fileID: 114000840344745040}
-  - component: {fileID: 114808023874663532}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +156,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1760165641693732}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -48.64817, y: 4.9, z: -52.12}
+  m_LocalPosition: {x: 79.7, y: 4.9, z: 66.4}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4322180518047272}
@@ -180,7 +179,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7788f3dc8bacc4023bb10914a79e73c6, type: 2}
+  - {fileID: 2100000, guid: 47b4f11fd34f94b2187d3541bb38dd0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -242,7 +241,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 1e87ad8a504644ba6b3c824c814c8d03, type: 2}
+  - {fileID: 2100000, guid: c1909e7b368e44bb9aaec62ad151cce9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -343,17 +342,6 @@ MonoBehaviour:
   spinSpeed: 180
   motionMagnitude: 0.1
   targetTransform: {fileID: 4322180518047272}
---- !u!114 &114808023874663532
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1640746131557856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcf36ddb1a704b48a138c1b46423171, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135247816845051280
 SphereCollider:
   m_ObjectHideFlags: 1

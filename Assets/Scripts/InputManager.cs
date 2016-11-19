@@ -9,7 +9,7 @@ public class InputManager : MonoBehaviour{
     }
 
     void Update() {
-        // Debug.Log(Input.gyro.userAcceleration.magnitude);
+        //Debug.Log(Input.gyro.userAcceleration.magnitude);
     }
 
     public float GetXRotationInRad() {

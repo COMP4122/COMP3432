@@ -4,8 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Input Manager
+  - Boundary
   - Ground
+  - Target
   - Collectable
+  - Text
+  - Trigger1
+  - Trigger2
+  - Trap
+  - GameManager
+  - Network
+  - Welcome
+  - HUD
   layers:
   - Default
   - TransparentFX

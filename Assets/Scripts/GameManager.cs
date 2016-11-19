@@ -1,31 +1,65 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour {
 
     public GameObject welcomeCanvas;
     public GameObject hudCanvas;
     public GameObject endCanvas;
-
     public Text scoreText;
     public Text endText;
 
     public GameObject nextLevelButton;
     public GameObject playAgainButton;
 
+    private PCController networkController;
+
     public int levelNo;
     public bool isLastLevel;
-
+    public string localip;
     private int score;
+    private int num;
 
 	void Start () {
-        hudCanvas.SetActive(false);
-        welcomeCanvas.SetActive(true);
-        endCanvas.SetActive(false);
-		Time.timeScale = 0;
+        //num = GameObject.FindGameObjectWithTag("Network").GetComponent<MyNetworkManager>().numPlayers;
+        //Debug.Log(GameObject.FindGameObjectWithTag("Network").GetComponent<MyNetworkManager>().IsClientConnected());
+        //Debug.Log(GameObject.FindGameObjectWithTag("Network").GetComponent<MyNetworkManager>().numPlayers); 
+
+        if(levelNo == 0)
+        {
+            if (!GameObject.FindGameObjectWithTag("Network").GetComponent<MyNetworkManager>().IsClientConnected())
+            {
+                hudCanvas.SetActive(false);
+                endCanvas.SetActive(false);
+                welcomeCanvas.SetActive(true);
+                Time.timeScale = 0;
+                
+            }
+            else
+            {
+                hudCanvas.SetActive(true);
+                endCanvas.SetActive(false);
+                welcomeCanvas.SetActive(false);
+                Time.timeScale = 1f;
+            }
+        }
+        else
+        {
+            endCanvas.SetActive(false);
+            hudCanvas.SetActive(true);
+            Time.timeScale = 1f;
+            
+        }
+        
+        
 
 	}
+
+    void Update() {
+       
+    }
 	
 	public void StartGame() {
         Time.timeScale = 1f;
@@ -61,17 +95,6 @@ public class GameManager : MonoBehaviour {
         UpdateScoreText();
     }
 
-    public void ReloadLevel() {
-        SceneManager.LoadScene("Level" + levelNo);
-    }
-
-    public void LoadNextScene() {
-        if (!isLastLevel) {
-            int nextLevelNo = levelNo + 1;
-            SceneManager.LoadScene("Level" + nextLevelNo);
-        }
-    }
-
     private void SetScore(int score) {
         this.score = score;
         UpdateScoreText();
@@ -80,4 +103,15 @@ public class GameManager : MonoBehaviour {
     private void UpdateScoreText() {
         scoreText.text = "Score: " + score;
     }
+
+    public void ReloadLevel() {
+        networkController = GameObject.FindGameObjectWithTag("GameController").GetComponent<PCController>();
+        networkController.ReloadLevel();
+    }
+
+    public void LoadNextScene() {
+        networkController = GameObject.FindGameObjectWithTag("GameController").GetComponent<PCController>();
+        networkController.LoadNextScene();
+    }
+
 }
