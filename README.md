@@ -7,7 +7,8 @@ Yang Junxiong
 Zhu Yidi  
 
 ## Downloads
-Alpha version for Android platform can be downloaded [here](https://github.com/COMP4122/COMP3432-Innovative-Computing-Paradigm/releases/download/alpha6/Dual.Balance.alpha.apk)
+Alpha version for Android platform can be downloaded [here](https://github.com/COMP4122/COMP3432-Innovative-Computing-Paradigm/releases/download/alpha6/Dual.Balance.alpha.apk)  
+Presentation slides can be viewed and downloaded [here](https://docs.google.com/presentation/d/1E9x1JCJprLikV3wYgj9chKwzl7rRaF8owlf8_IRvKM8/edit?usp=sharing)  
 
 ## Introduction
 
