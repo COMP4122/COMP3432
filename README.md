@@ -23,3 +23,10 @@ Player one controls the left and right movement, and player two controls the up 
 Everyone who has played this game agree that this game is super fun and can certainly connect them with their friends.  
 
 This game is currently available only on Android platform. But we do plan to release it on the AppStore in the near future, after polishing it, and sharing the joy with more people.
+
+## Instructions
+
+As this is a for two players, there is *no* "single player" mode. You need two Android phones to play it.  
+
+After opening the game on two phones, on phone 1 start tap "Start Host", and an *IP Address* will appear at the bottom.
+On phone 2, click on the *local host* and type in the *IP Address* just appeared on phone 1, and then type *Join Game*. You are good to go!
