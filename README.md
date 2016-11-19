@@ -1,7 +1,7 @@
 # COMP3432-Innovative-Computing-Paradigm
 This is our term project for *COMP3432* at PolyU.  
   
-Our group members are:  
+We are group 12. Our group members are:  
 Liu Chang  
 Yang Junxiong  
 Zhu Yidi  
