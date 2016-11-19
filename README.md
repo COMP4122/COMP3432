@@ -2,9 +2,14 @@
 This is our term project for *COMP3432* at PolyU.  
   
 Our group members are:  
-Liu Chang
-Yang Junxiong
-Zhu Yidi
+Liu Chang  
+Yang Junxiong  
+Zhu Yidi  
+
+## Downloads
+Alpha version for Android platform can be downloaded [here](https://github.com/COMP4122/COMP3432-Innovative-Computing-Paradigm/releases/download/alpha6/Dual.Balance.alpha.apk)
+
+## Introduction
 
 This is the group project for COMP3432 Innovative Computing Paradigm class at HK PolyU. This is a two-player game on the Android platform.  
 
